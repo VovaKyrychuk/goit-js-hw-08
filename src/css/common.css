@@ -16,3 +16,13 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.gallery {
+  list-style: none;
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+  font-size: 30px;
+}
