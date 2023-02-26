@@ -12,7 +12,7 @@ function onInputData(event) {
 }
 function onFormSubmit(event) {
   event.preventDefault();
-  console.log({ email: email.value, message: message.value });
+  console.log(dataForm);
 
   localStorage.removeItem(STORAGE_KEY);
   event.currentTarget.reset();
